@@ -59,5 +59,13 @@ body {
     border-color:beige;
     background-color:pink;
 }
+@media screen and (max-width: 305px) {
+    .calculator {
+        padding: 30px;
+        width: fit-content;
+        background-size: cover;
+        border-radius: 20px;
+    }
+}
 
 
